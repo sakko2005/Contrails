@@ -3,19 +3,19 @@
 
 > This is the feed's ID which can be letters, numbers, or dashes. Spaces are not allowed. Maximum length is 15 characters.
 
-emotional-support-pets
+sakko-bluesky-feed
 
 # displayName
 
 > This is the title of the custom feed. Maximum length is 24 characters.
 
-Emotional Support Pets
+個人的スマホ情報
 
 # description
 
 > This is the description of the feed.
 
-Cute animals feed
+個人的に気になってるスマホ情報
 
 # searchTerms
 
@@ -26,11 +26,7 @@ Cute animals feed
 > - Pinned posts: links such as `https://bsky.app/profile/saddymayo.bsky.social/post/3jxju2wwap22e` will pin at the top of the feed. One link per line, please.
 
 - https://bsky.app/profile/saddymayo.bsky.social/post/3jxju2wwap22e
-- cats
-- dogs
-- penguins
-- red pandas
-- quokkas
+(motorola|モトローラ|moto g|OPPO|Xperia|Xiaomi|Galaxy S) -写真 -nowplaying -oppo -photograph
 
 # denyList
 
@@ -39,13 +35,15 @@ Cute animals feed
 > - did:plc:1234
 > - @spamspamspam.bsky.social
 
+- did:plc:snjkn3m3smemrpw5nnskzyx7
+
 # safeMode
 
 > Safe mode limits the total number of API calls coming from Cloudflare.
 >
 > Set to `false` if you have higher limits via a paid Cloudflare plan.
 
-true
+false
 
 # avatar
 
